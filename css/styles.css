@@ -279,10 +279,12 @@ a {
 }
 
 .features-wrap-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  text-align: center;
 }
 
 .features-icon {
