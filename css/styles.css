@@ -111,11 +111,10 @@ a {
 }
 
 .card-set-item {
-  flex-basis: calc(
+   flex-basis: calc(
     ((100% - (var(--card-item) - 1) * var(--card-gap))) / var(--card-item)
   );
-
-  /* ( (100% - (var(--card-item) - 1) * var(--card-gap))) / var(--card-item) */
+}
 }
 
 .text-white {
@@ -179,7 +178,7 @@ a {
 .nav-list,
 .contacts-list {
   display: flex;
-  gap: var(--card-gap);
+  gap: 50px;
 }
 
 .contacts-list {
