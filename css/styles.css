@@ -358,7 +358,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-.soc-list {
+.team-item  .soc-list {
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -382,18 +382,19 @@ a {
   justify-content: center;  
   width: 100%;
   height: 100%;
-  border: 1px solid var(--color-icon);
+  border: 1px solid ;
    border-radius: 4px;
+   color: var(--color-icon);
 }
 
 .clients-link:hover,
 .clients-link:focus {
-  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* ----------------------Футер ----------------------- */
@@ -502,6 +503,12 @@ a {
 
 .projects-item {
   border: 1px solid #eeeeee;
+}
+
+.projects-link {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .projects-link:hover,
